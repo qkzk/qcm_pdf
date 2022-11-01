@@ -5,7 +5,7 @@ Convert a QCM parsed by `qcm_parser` into a pdf
 # Usage
 
 ```bash
-$ python qcm_pdf.py -h
+python qcm_pdf.py -h
 usage: qcm_pdf.py [-h] [-n NB_COPY] [-c] filename
 
 Convert a QCM into different format: PDF or HTML. I need a filepath a number of copy and the option -w or -p
@@ -22,5 +22,10 @@ options:
 Convert with :
 
 ```bash
-$ python qcm_pdf.py -n 35 -c qcm_1nsi_04_fonctions.md
+python qcm_pdf.py -n 35 -c test.md                                                                                                                                                (master|…5)
 ```
+
+Produces the output files :
+
+- [markdown](./test_QUESTIONS.md)
+- [pdf](./test_QUESTIONS.pdf)
