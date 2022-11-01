@@ -29,3 +29,8 @@ It converts the source : [test.md](./test.md) into the output files :
 
 - [markdown](./test_QUESTIONS.md)
 - [pdf](./test_QUESTIONS.pdf)
+
+# Requirements
+
+- [qcm-parser](https://pypi.org/project/qcm-parser/)
+- [pandoc](https://pandoc.org/)
