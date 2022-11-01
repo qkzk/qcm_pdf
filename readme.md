@@ -22,7 +22,7 @@ options:
 Convert with :
 
 ```bash
-python qcm_pdf.py -n 35 -c test.md                                                                                                                                                (master|…5)
+python qcm_pdf.py -n 35 -c test.md
 ```
 
 It converts the source : [test.md](./test.md) into the output files :
