@@ -25,7 +25,7 @@ Convert with :
 python qcm_pdf.py -n 35 -c test.md                                                                                                                                                (master|…5)
 ```
 
-Produces the output files :
+It converts the source : [test.md](./test.md) into the output files :
 
 - [markdown](./test_QUESTIONS.md)
 - [pdf](./test_QUESTIONS.pdf)
