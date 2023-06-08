@@ -75,6 +75,8 @@ header-includes:
     def part_formater(self, part: QCM_Part):
         """Format a part"""
         string = "## " + part.title + "\n\n"
+        if part.text:
+            string += part.text + "\n\n"
         questions = sample(part.questions, len(part.questions))
         for question in questions:
             string += self.question_formater(question)
